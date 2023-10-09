@@ -89,7 +89,4 @@ fn main() {
     // st_blocks()
     let linux_st_blocks_value = metadata.st_blocks();
     println!("{:?}", linux_st_blocks_value);
-    // file_attributes()
-    let linux_file_attributes_value = metadata.file_attributes();
-    println!("{:?}", linux_file_attributes_value);
 }
